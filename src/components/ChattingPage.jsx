@@ -59,7 +59,7 @@ function ChattingPage({
       />
       <Box>
         <Typography fontWeight={700} fontSize={{ xs: 14, md: 16 }}>
-          {isAI ? 'Soul AI' : 'You'}
+        <span>{isAI ? 'Soul AI' : 'You'}</span>
         </Typography>
         <Typography fontSize={{ xs: 12, md: 16 }}>
           {details.text}
